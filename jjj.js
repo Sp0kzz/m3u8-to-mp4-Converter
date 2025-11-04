@@ -1,4 +1,4 @@
-mycustom.js text/javascript
+mycustom-sc.js text/javascript
 (function() {
   const host = location.hostname.replace(/^www\./, '');
   if (host === 'ip2.network') {
