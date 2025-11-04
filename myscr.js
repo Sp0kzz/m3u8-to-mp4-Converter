@@ -1,3 +1,5 @@
+mycustom-sc.js text/javascript
+(function() {
 const hostname = window.location.hostname.replace(/^www\./, '');
 
 if (hostname === 'ip2.network') {
@@ -32,3 +34,4 @@ if (hostname === 'ip2.network') {
   style.textContent = css;
   (document.head || document.documentElement).appendChild(style);
 }
+})();
